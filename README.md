@@ -1,16 +1,16 @@
 ## Usage
 
 1. Run web server
-  - $ bundle exec rackup
+  - `$ bundle exec rackup`
 2. Access to app from browser extensions
-3. Check by eye
+3. Check with your eyes
 
 ## URL
 
 * `/some/api`
-  - it returns simple json text
+  - it returns simple json text like `{"result"=>"OK"}`
 * `/some/api/with/custom/header`
-  - it also returns simple json text and custom header (X-Hello)
+  - it returns simple json text and custom header (`X-Hello`)
 
 ## Tasks
 
