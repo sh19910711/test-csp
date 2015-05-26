@@ -9,7 +9,7 @@
 
 * `/some/api`
   - it returns simple json text
-* `/api/with/custom/header`
+* `/some/api/with/custom/header`
   - it also returns simple json text and custom header (X-Hello)
 
 ## Tasks
