@@ -1,9 +1,10 @@
 ## Usage
 
 1. Run web server
-  - `$ bundle exec rackup`
-2. Access to app from browser extensions
-3. Check with your eyes
+  - `$ bundle exec rackup --host localhost --port 18080`
+2. Build browser extensions you need
+3. Access to app from browser extensions
+4. Check with your eyes
 
 ## URL
 
@@ -11,6 +12,12 @@
   - it returns simple json text like `{"result"=>"OK"}`
 * `/some/api/with/custom/header`
   - it returns simple json text and custom header (`X-Hello`)
+
+## crx-test-xhr
+
+1. `$ npm install`
+2. `$ gulp build`
+3. Install the extension by hand
 
 ## Tasks
 
