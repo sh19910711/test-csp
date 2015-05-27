@@ -17,6 +17,7 @@
 
 1. `$ npm install`
 2. `$ gulp build`
+  - Compiled files are generated into `dist/` directory
 3. Install the extension by hand
 
 ## Tasks
