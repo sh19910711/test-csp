@@ -14,7 +14,7 @@
 
 ## Tasks
 
-* Test script-src
+* script-src
   - [ ] chrome
   - [ ] firefox
   - [ ] safari
@@ -22,5 +22,4 @@
   - [ ] chrome
   - [ ] firefox
   - [ ] safari
-
 
