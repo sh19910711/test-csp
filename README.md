@@ -26,7 +26,7 @@
   - [ ] firefox
   - [ ] safari
 * [ ] Test XHR from browser extensions
-  - [ ] chrome
+  - [x] chrome
   - [ ] firefox
   - [ ] safari
 
