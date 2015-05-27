@@ -17,4 +17,8 @@ class App < Padrino::Application
     RESULT_OK
   end
 
+  get "/js/hello.js" do
+    "console.log('hello');"
+  end
+
 end
