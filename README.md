@@ -40,6 +40,8 @@
   - [ ] safari
 * [ ] Test XHR from browser extensions
   - [x] chrome
-  - [ ] firefox
+    - need to set permissions
+  - [x] firefox
+    - does not need to set permissions
   - [ ] safari
 
