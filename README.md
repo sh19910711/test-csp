@@ -6,7 +6,9 @@
 3. Access to app from browser extensions
 4. Check with your eyes
 
-## URL
+## App
+
+### URL
 
 * `/some/api`
   - it returns simple json text like `{"result"=>"OK"}`
