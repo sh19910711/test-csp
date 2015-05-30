@@ -1,2 +1,2 @@
 content hello chrome/content/
-overlay chrome://browser/contnet/browser.xul chrome://hello/content/sample.xul
+overlay chrome://browser/content/browser.xul chrome://hello/content/sample.xul
