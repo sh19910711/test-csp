@@ -1,0 +1,18 @@
+{
+  "title": "Hello Firefox",
+  "name": "ffx-test-xhr",
+  "version": "0.0.1",
+  "description": "A basic add-on",
+  "main": "dist/js/main.js",
+  "author": "",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1"
+  }
+}
