@@ -83,3 +83,6 @@ DEPENDENCIES
   bundler
   padrino
   slim
+
+BUNDLED WITH
+   1.10.1
