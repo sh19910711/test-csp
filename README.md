@@ -13,12 +13,24 @@
 * `/some/api/with/custom/header`
   - it returns simple json text and custom header (`X-Hello`)
 
-## crx-test-xhr
+## ./crx-test-xhr
+
+### Build
 
 1. `$ npm install`
 2. `$ gulp build`
   - Compiled files are generated into `dist/` directory
 3. Install the extension by hand
+
+## ./ffx-test-xhr
+
+### jpm
+
+`$ npm install -g jpm`
+
+### Run
+
+1. ``$ JPM_FIREFOX_BINARY=`which firefox` jpm run``
 
 ## Tasks
 
