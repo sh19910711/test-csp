@@ -15,6 +15,8 @@ button = buttons.ActionButton
     "64": "./img/redo-64.png"
   onClick: ->
     tabs.open "http://google.com"
+  badge: 0
+  badgeColor: "rgba(153, 153, 153, 1)"
 
 exports =
   dummy: dummy
