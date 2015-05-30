@@ -42,6 +42,6 @@
   - [x] chrome
     - need to set permissions
   - [x] firefox
-    - does not need to set permissions
+    - does not need to set any settings (maybe)
   - [ ] safari
 
