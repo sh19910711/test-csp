@@ -43,7 +43,11 @@
 * [ ] Test XHR from browser extensions
   - [x] chrome
     - need to set permissions
+    - [x] GET
+    - [x] POST
   - [x] firefox
     - does not need to set any settings (maybe)
+    - [x] GET
+    - [ ] POST
   - [ ] safari
 
