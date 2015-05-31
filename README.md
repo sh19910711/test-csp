@@ -32,7 +32,10 @@
 
 ### Run
 
-1. ``$ JPM_FIREFOX_BINARY=`which firefox` jpm run``
+1. `$ npm install`
+2. `$ gulp build`
+  - watch: `$ gulp build/watch`
+3. ``$ JPM_FIREFOX_BINARY=`which firefox` jpm run``
 
 ## Tasks
 
