@@ -12,7 +12,16 @@ class App < Padrino::Application
     RESULT_OK
   end
 
+  post "/some/api" do
+    RESULT_OK
+  end
+
   get "/some/api/with/custom/header" do
+    headers "X-Hello" => "WORLD"
+    RESULT_OK
+  end
+
+  post "/some/api/with/custom/header" do
     headers "X-Hello" => "WORLD"
     RESULT_OK
   end

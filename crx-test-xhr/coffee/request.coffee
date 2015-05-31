@@ -1,5 +1,5 @@
-# send xhr
-xhr = (method, url, callback)->
+# send request
+request = (method, url, callback)->
   xhr = new XMLHttpRequest()
 
   xhr.open(method, url, true)
@@ -11,4 +11,4 @@ xhr = (method, url, callback)->
     if (xhr.readyState == 4)
       callback(xhr)
 
-window.xhr = xhr
+window.request = request
