@@ -48,6 +48,6 @@
   - [x] firefox
     - does not need to set any settings (maybe)
     - [x] GET
-    - [ ] POST
+    - [x] POST
   - [ ] safari
 
