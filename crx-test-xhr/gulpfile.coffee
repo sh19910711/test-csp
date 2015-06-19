@@ -4,6 +4,10 @@ gulp.task "html", ->
   gulp.src ["html/**/*.html"]
     .pipe gulp.dest("dist/html/")
 
+gulp.task "img", ->
+  gulp.src ["img/**/*.png"]
+    .pipe gulp.dest("dist/img/")
+
 gulp.task "manifest.json", ->
   gulp.src ["manifest.json"]
     .pipe gulp.dest("dist/")
@@ -18,7 +22,12 @@ gulp.task "build", [
   "html"
   "manifest.json"
   "coffee"
+  "img"
 ]
+
+gulp.task "watch", ->
+  gulp.watch ["coffee/**/*.coffee"], ["coffee"]
+  gulp.watch ["manifest.json"], ["manifest.json"]
 
 gulp.task "build/watch", ->
   gulp.watch ["*.json", "html/**/*.html", "coffee/**/*.coffee"], ["build"]
